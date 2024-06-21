@@ -1,20 +1,15 @@
+[[_TOC_]]
+
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This Repository contains coding examples for the application process of Software Developers at Künz.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Git Workflow
+The repo follows a trunk-based Git workflow. Implementations and new features have to be merged into ```main``` with a Pull Request (PR).
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Examples
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Backend 1: REST API endpoint with string validation
+See [Backend Example 1](examples/backend-example-1.md).
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Frontend 1: Angular UI to do the string validation of Backend 1 Example
+See [Frontend Example 1](examples/frontend-example-1.md).
