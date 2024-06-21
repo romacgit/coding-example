@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Frontend Example 1: GUI for the String Validator REST API
 
 ## Description

@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Backend Example 1: REST API endpoint with string validation
 
 ## Description

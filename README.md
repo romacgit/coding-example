@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Introduction 
 This Repository contains coding examples for the application process of Software Developers at Künz.
 
