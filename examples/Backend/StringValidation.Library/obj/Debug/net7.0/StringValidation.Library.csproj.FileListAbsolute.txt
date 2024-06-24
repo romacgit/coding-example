@@ -1,0 +1,17 @@
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/appsettings.Development.json
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/appsettings.json
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/StringValidation.Library.deps.json
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/StringValidation.Library.dll
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/StringValidation.Library.pdb
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/StringValidation.Common.dll
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/bin/Debug/net7.0/StringValidation.Common.pdb
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.csproj.AssemblyReference.cache
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.AssemblyInfoInputs.cache
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.AssemblyInfo.cs
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.csproj.CoreCompileInputs.cache
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.csproj.CopyComplete
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.dll
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/refint/StringValidation.Library.dll
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/StringValidation.Library.pdb
+/Users/robertmaciejewski/GitRepos/Künz/coding-example/examples/Backend/StringValidation.Library/obj/Debug/net7.0/ref/StringValidation.Library.dll
