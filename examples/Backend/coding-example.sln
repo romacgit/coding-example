@@ -1,0 +1,54 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{12F4D4C7-0330-45EC-8F56-EF983D519569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{CE6EF80B-C8A7-4526-A271-C18A69F26DA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringValidation.Common", "examples\Backend\StringValidation.Common\StringValidation.Common.csproj", "{F24DF439-AA06-4201-B460-BF97D527EB40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringValidation.Console", "examples\Backend\StringValidation.Console\StringValidation.Console.csproj", "{02490C97-0F86-4618-A7AF-08EF9C61CCCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringValidation.Library", "examples\Backend\StringValidation.Library\StringValidation.Library.csproj", "{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringValidation.Tests", "examples\Backend\StringValidation.Tests\StringValidation.Tests.csproj", "{F73F46E6-0F3F-4DAE-8053-47AB3580EF76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F24DF439-AA06-4201-B460-BF97D527EB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24DF439-AA06-4201-B460-BF97D527EB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24DF439-AA06-4201-B460-BF97D527EB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24DF439-AA06-4201-B460-BF97D527EB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02490C97-0F86-4618-A7AF-08EF9C61CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02490C97-0F86-4618-A7AF-08EF9C61CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02490C97-0F86-4618-A7AF-08EF9C61CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02490C97-0F86-4618-A7AF-08EF9C61CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73F46E6-0F3F-4DAE-8053-47AB3580EF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73F46E6-0F3F-4DAE-8053-47AB3580EF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73F46E6-0F3F-4DAE-8053-47AB3580EF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73F46E6-0F3F-4DAE-8053-47AB3580EF76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE6EF80B-C8A7-4526-A271-C18A69F26DA3} = {12F4D4C7-0330-45EC-8F56-EF983D519569}
+		{F24DF439-AA06-4201-B460-BF97D527EB40} = {CE6EF80B-C8A7-4526-A271-C18A69F26DA3}
+		{02490C97-0F86-4618-A7AF-08EF9C61CCCE} = {CE6EF80B-C8A7-4526-A271-C18A69F26DA3}
+		{514CE7E5-D5AF-4DF7-9947-5AF12D3B1422} = {CE6EF80B-C8A7-4526-A271-C18A69F26DA3}
+		{F73F46E6-0F3F-4DAE-8053-47AB3580EF76} = {CE6EF80B-C8A7-4526-A271-C18A69F26DA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23BDB2CE-07AC-4C96-8FED-F83047B5788A}
+	EndGlobalSection
+EndGlobal
