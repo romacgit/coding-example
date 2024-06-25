@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -25,14 +26,34 @@ namespace StringValidation.Library.Controllers
 
         [HttpPost("UserInput")]
         [ProducesResponseType(StatusCodes.Status200OK)] // Optional: Specify response types
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> ValidateInput([NotNull] [FromBody] string input)
+        public async Task<ActionResult> ValidateInput([NotNull] string input)
         {
             try
             {
                 var getResult = await StringValidationHelper.IsValidInput(input);
                 
                 return Ok(getResult);
+            }
+            catch(Exception exception)
+            {
+                _logger.LogError(exception, nameof(ValidateInput));
+                return StatusCode(StatusCodes.Status500InternalServerError, "Internal Server Error");
+            }
+        }
+
+        [HttpGet("GetUserInput")]
+        [ProducesResponseType(StatusCodes.Status200OK)] // Optional: Specify response types
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<string>> GetTestText()
+        {
+            try
+            {
+                var getREsult = "Test value";
+
+                return Ok(getREsult);
             }
             catch(Exception exception)
             {
